@@ -27,15 +27,15 @@ img {
 }
 p {
   color: black;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   margin-top: 5px;
   line-height: 2.5rem;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.05rem;
 }
 .section-title {
   font-size: 4rem;
-  font-weight: 300;
+  font-weight: 400;
   color: black;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -351,7 +351,7 @@ p {
   border-radius: 10px;
 }
 #projects .project-info {
-  width:100%;
+  width: 100%;
   padding: 30px;
   flex-basis: 50%;
   height: 100%;
@@ -519,33 +519,30 @@ p {
 }
 /* End Footer */
 
-
-.weblink{
-  font-weight:700;
-  color:#e0532f;
-  transition:all 0.4s;
+.weblink {
+  font-weight: 700;
+  color: #e0532f;
+  transition: all 0.4s;
 }
-.weblink:hover{
+.weblink:hover {
   text-underline-offset: 10px;
   text-decoration: underline;
-  
 }
-.weblink::after{
-  content:"\f360";
+.weblink::after {
+  content: "\f360";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   position: relative;
-  left:10px;
+  left: 10px;
   width: 30px;
   height: 30px;
-  transition:all 0.4s;
+  transition: all 0.4s;
 }
 
-.weblink:hover::after{
-  left:15px;
+.weblink:hover::after {
+  left: 15px;
   text-decoration: none;
 }
-
 
 /* Keyframes */
 @keyframes text_reveal_box {
@@ -591,9 +588,6 @@ p {
   }
   /* End Services Section */
   /* Project */
-
-
-
 
   #projects .project-item {
     flex-direction: row;
