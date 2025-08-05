@@ -1,9 +1,21 @@
+import { motion } from "framer-motion";
 import { MapPin, BookOpen, Wrench } from "lucide-react";
+import { useTypewriterStatic } from "../hooks/useStaticTypewriter";
 
 export default function ProfileHeader() {
+  const { displayed, done } = useTypewriterStatic("Hello, I'm Xiangxu", 200);
+
   return (
     <header className="text-center mb-16">
-      <h1 className="text-4xl font-bold text-gray-900 mb-4">Hi, I'm Xiangxu</h1>
+      <motion.h1
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        className="text-4xl font-bold text-gray-900 mb-4"
+      >
+        {displayed}
+        {!done && <span className="animate-pulse">|</span>}
+      </motion.h1>
+
       <div className="space-y-4 max-w-2xl mx-auto text-left text-gray-700 text-lg leading-relaxed">
         <div className="flex items-start gap-3">
           <div className="w-8 h-8 rounded-full bg-pink-100/50 flex items-center justify-center">
