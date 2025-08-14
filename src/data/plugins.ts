@@ -15,12 +15,12 @@ export const plugins: Plugin[] = [
     link: "https://wordpress.org/plugins/weather-map",
   },
   {
-    name: "Super Post Search",
+    name: "Findit Post Search and Filter(Super Post Search)",
     features: [
       "Search by post title and content with keyword highlighting.",
       "Filter by category and tag.",
       "'Load More' button to load results incrementally for better performance.",
     ],
-    link: "https://wordpress.org/plugins/super-post-search",
+    link: "https://wordpress.org/plugins/findit-post-search-and-filter/",
   },
 ];
