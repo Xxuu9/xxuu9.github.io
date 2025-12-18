@@ -23,4 +23,13 @@ export const plugins: Plugin[] = [
     ],
     link: "https://wordpress.org/plugins/findit-post-search-and-filter/",
   },
+  {
+    name: "Clickit Readmore",
+    features: [
+      "Wraps content using a [read-more] shortcode to toggle visibility.",
+      "Includes an admin settings page to customize the “Read More” button.",
+      "Perfect for long posts, FAQs, product descriptions, or any content you want to initially hide for a cleaner layout",
+    ],
+    link: "https://wordpress.org/plugins/sylvie-readmore-toggle/",
+  },
 ];
